@@ -8,6 +8,7 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
+import mindustry.ui.Styles;
 // Well, Mindustry itself does not accept any other main class. It just throws a 'NoClassFoundException'
 public class ExampleJavaMod extends Mod{
 
