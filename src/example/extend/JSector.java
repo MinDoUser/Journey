@@ -19,7 +19,7 @@ public class JSector extends SectorPreset {
    Events.on(SectorCaptureEvent.class, e -> {
    Log.info("Sector: "+e);
    sectorDone();
-   }
+   });
 }
    public void sectorDone(){
    		BaseDialog dialog = new BaseDialog("");
