@@ -16,11 +16,11 @@ public class JSector extends SectorPreset {
     public JSector(String name, Planet planet, int sector) {
         super(name, planet, sector);
      //this.name = name;
-    }
    Events.on(SectorCaptureEvent.class, e -> {
    Log.info("Sector: "+e);
    sectorDone();
    }
+}
    public void sectorDone(){
    		BaseDialog dialog = new BaseDialog("");
 		dialog.closeOnBack();
