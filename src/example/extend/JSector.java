@@ -1,10 +1,10 @@
 package example.extend;
-
+import arc.util.Log;
 import arc.Core;
 import arc.Events;
 import mindustry.Vars;
 import mindustry.content.TechTree;
-import mindustry.game.EventType;
+import mindustry.game.EventType.*;
 import mindustry.type.Planet;
 import mindustry.type.SectorPreset;
 import mindustry.ui.dialogs.*;
