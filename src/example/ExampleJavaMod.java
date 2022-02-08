@@ -47,7 +47,7 @@ public class ExampleJavaMod extends Mod{
 
     @Override
     public void loadContent(){
-	    JPlanets().load();
+	   new JPlanets().load();
     }
 
 }
