@@ -14,7 +14,7 @@ public class JPlanets implements ContentList{
   
      @Override
       public void load(){
-               cern = new Planet("cern", Planets.serpulo, 6, 2f){{
+               cern = new Planet("cern", Planets.serpulo, 2f, 6){{
             generator = new SerpuloPlanetGenerator();
             meshLoader = () -> new HexMesh(this, 6);
             /*cloudMeshLoader = () -> new MultiMesh(
